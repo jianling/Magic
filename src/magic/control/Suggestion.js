@@ -304,9 +304,7 @@ magic.control.Suggestion = baidu.lang.createClass(function(options){
          * @param {Boolean} evt.returnValue 返回false时，会阻止下拉菜单展现。
          * @example
          * var instance = magic.setup.suggestion('sgt', option);
-         * instance.onbeforeshow = function(evt){
-         *         evt.returnValue = false; //此时会阻止下拉菜单展现。
-         * }
+         * instance.onbeforeshow = function(evt){}
          * @example
          * var instance = magic.setup.suggestion('sgt', option);
          * instance.on('beforeshow', function(evt){
